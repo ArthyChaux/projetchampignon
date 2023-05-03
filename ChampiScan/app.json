@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "ChampiScan",
+    "slug": "ChampiScan",
+    "version": "pre_alfa",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/fond.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.arthychaux.ChampiScan"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8b7f8167-7bce-4076-ac71-08a3b8506116"
+      }
+    }
+  }
+}
