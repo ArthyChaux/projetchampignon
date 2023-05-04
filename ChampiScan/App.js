@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { FlatList, StyleSheet, Text, View, Image, ImageBackground, Button, SafeAreaView, TextInput } from 'react-native';
+import { FlatList, StyleSheet, Text, View, Image, ImageBackground, Button, SafeAreaView, TextInput, Pressable } from 'react-native';
 
 import * as ImagePicker from 'expo-image-picker';
+import { readString } from 'react-native-csv'
 
+import champi_csv from './assets/champignons.csv';
 
 /* ################ APP ################ */
 
@@ -11,7 +13,16 @@ export default function App() {
 
 /* ################ VARIABLES ################ */
 
-const [champi_data, setChampiData] = useState([
+fetch(champi_csv)
+ .then(r => r.text())
+ .then(text => {
+  console.log('text decoded:', text);
+});
+
+const base_data = readString(text);
+console.log(base_data);
+
+/*const base_data = [
   {name: 'Devin', pic: 'https://i.pinimg.com/736x/41/50/46/41504656649d0ca99eef8c87e4fa9d10.jpg'},
   {name: 'Dan', pic: 'https://i.pinimg.com/736x/41/50/46/41504656649d0ca99eef8c87e4fa9d10.jpg'},
   {name: 'Dominic', pic: 'https://i.pinimg.com/736x/41/50/46/41504656649d0ca99eef8c87e4fa9d10.jpg'},
@@ -22,7 +33,10 @@ const [champi_data, setChampiData] = useState([
   {name: 'Jillian', pic: 'https://i.pinimg.com/736x/41/50/46/41504656649d0ca99eef8c87e4fa9d10.jpg'},
   {name: 'Jimmy', pic: 'https://i.pinimg.com/736x/41/50/46/41504656649d0ca99eef8c87e4fa9d10.jpg'},
   {name: 'Julie', pic: 'https://i.pinimg.com/736x/41/50/46/41504656649d0ca99eef8c87e4fa9d10.jpg'},
-]);
+];*/
+
+const [champi_data, setChampiData] = useState(base_data);
+const [selectedImage, setSelectedImage] = useState('https://i.pinimg.com/736x/41/50/46/41504656649d0ca99eef8c87e4fa9d10.jpg');
 
 /* ################ STYLES ################ */
 
@@ -37,35 +51,43 @@ const styles = StyleSheet.create({
 /* ################ FUNCTIONS ################ */
 
 const pickImage = async () => {
-  // No permissions request is necessary for launching the image library
-  /*let result = await ImagePicker.launchImageLibraryAsync({
-    mediaTypes: ImagePicker.MediaTypeOptions.All,
+  let result = await ImagePicker.launchImageLibraryAsync({
     allowsEditing: true,
-    aspect: [4, 3],
     quality: 1,
-  }).then(image => {
-    //Your image
-    console.log(image);
   });
 
-  console.log(result);*/
+  if (!result.canceled) {
+    setSelectedImage(result.assets[0].uri);
+  } else {
+    alert('You did not select any image.');
+  }
 
   /*let a = await ImagePicker.useCameraPermissions();
   let result = await ImagePicker.launchCameraAsync({
 
   });*/
-
   /*let resultb = await launchCamera(options, (response)  => {
     // Response data
   });*/
 };
 
-const onChangeText = ()  => {
-  setChampiData([
-    {name: 'Devin', pic: 'https://i.pinimg.com/736x/41/50/46/41504656649d0ca99eef8c87e4fa9d10.jpg'},
-    {name: 'Dan', pic: 'https://i.pinimg.com/736x/41/50/46/41504656649d0ca99eef8c87e4fa9d10.jpg'},
-  ]);
+const onChangeText = (message)  => {
+  let new_champi_data = [];
+
+  for(let i=0; i<base_data.length; i++) {
+    if(base_data[i].name.includes(message) || message == "") {
+      new_champi_data.push(base_data[i]);
+    }
+  }
+
+  setChampiData(new_champi_data);
 };
+
+const afficherFiche = () => {
+  alert("");
+}
+
+
 
 return (
   <View style={{flex: 1}}>
@@ -84,35 +106,46 @@ return (
           margin: 12,
           borderWidth: 1,
           padding: 10,
-          backgroundColor: "#fff"
+          backgroundColor: "#fff",
         }}
-      onChangeText={onChangeText}>
+        placeholder= "Chercher un champignon"
+        onChangeText={onChangeText}>
 
       </TextInput>
       <FlatList
         data={champi_data}
         renderItem={({item}) =>
-          <Text style={{
-            backgroundColor: '#fff',
-            margin: 5
-            }}>
-            <Image
-              source={{uri : item.pic}}
-              style={{
-                width: 100,
-                height: 100,
-                margin: 10}}/>
-              {item.name}
-          </Text>
+          <Pressable
+            onPressOut={afficherFiche}>
+            <Text style={{
+              backgroundColor: '#fff',
+              margin: 5
+              }}>
+              <Image
+                source={{uri : item.pic}}
+                style={{
+                  width: 100,
+                  height: 100,
+                  margin: 10}}/>
+                {item.name}
+            </Text>
+          </Pressable>
         }
       />
+
+      <Image
+          source={{uri: selectedImage}}
+          style={{
+            width: 100,
+            height: 100,
+            margin: 10}}
+        />
+
       <Button 
         onPress={pickImage}
         title="Prendre une photo"
         color="#841584"
-        accessibilityLabel="Learn more about this purple button"
         style={{
-          backgroundColor: '#fff0'
         }}>
         </Button>
     </View>

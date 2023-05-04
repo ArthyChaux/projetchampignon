@@ -1,0 +1,103 @@
+ID;Liste;nom_latin;nom_francais;nom_anglais;image;Comestibilité;Couleur du chapeau;Taille max du chapeau (cm);Couleur du pied;Taille max du pied (cm);Lames;Espèces voisines toxiques
+1;A;Amanita phalloides;Amanite phalloïde;Death cap;death_cap.png;Mortel;Vert;12;Blanc;15;Blanches;/
+2;A;Tricholoma equestre;Tricholome équestre;Yellow knight;yellow_knight.png;Mortel;Jaune;15;Jaune;10;Jaunes;/
+3;A;Amanita verna;Amanite printanière;Fool’s msuhroom;fool_msuhroom.png;Mortel;Blanc;12;Blanc;12;Blanches;/
+4;A;Cortinarius orellanus;Cortinaire couleur de rocou;Fool’s webcap;fool_webcap.png;Mortel;Brun;10;Jaune;10;Orangées;/
+5;A;Galerina marginata;Galère marginée;Funeral bell;funeral_bell.png;Mortel;Brun;7;Brun;7;Brunes;/
+6;A;Lepiota brunneoincarnata;Lépiote brun rose;Deadly dapperling;deadly_dapperling.png;Mortel;Brun;5;Brun;5;Blanches;/
+7;A;Paxillus involutus;Paxille enroulé;Brown roll-rim;brown_rim.png;Mortel;Brun;15;Brun;8;Brunes;/
+8;A;Gyromitra esculenta;Gyromitre délicieux;Brain mushroom;brain_mushroom.png;Mortel;Brun;10;Blanc;4;/;/
+9;A;Russula olivacea;Russule olivacée;Russula olivacea;russula_olivacea.png;Toxique;Vert;20;Blanc;10;Jaunes;/
+10;A;Russula heterophylla;Russule à lames inégales;Greasy green brittlegill;greasy_brittlegill.png;Comestible;Vert;15;Blanc;10;Blanches;Amanita phalloides
+11;A;Russula virescens;Russule verdoyante;Green-cracking russula;green_russula.png;Comestible;Vert;15;Blanc;10;Blanches;Amanita phalloides
+12;A;Russula cyanoxantha;Russule charbonnière;Charcoal burner;charcoal_burner.png;Comestible;Variées;10;Blanc;10;Blanches;"Amanita phalloides ; Russula olivacea"
+13;A;Tricholoma sejunctum;Tricholome disjoint;Yellow blusher;yellow_blusher.png;A jeter;Jaune;10;Blanc;10;Blanches;Amanita phalloides
+14;A;Tricholoma saponaceum;Tricholome à odeur de savon;Soap-scented toadstool;soap_toadstool.png;A jeter;Gris;15;Blanc;12;Blanches;Amanita phalloides
+15;A;Amanita gemmata;Amanite jonquille;Gemmed amanita;gemmed_amanita.png;Toxique;Jaune;10;Blanc;10;Blanches;/
+16;A;Tricholoma sulphureum;Tricholome soufré;Sulphur knight;sulphur_knight.png;Toxique;Jaune;10;Jaune;10;Jaunes;/
+17;A;Tricholoma portentosum;Tricholome prétentieux;Charbonnier;charbonnier_Charbonnier.png;Comestible;Gris;10;Blanc;10;Blanches;"Amanita phalloides ;"
+18;A;Amanita citrina;Amanite citrine;False death cap;false_cap.png;A jeter;Jaune;10;Blanc;10;Blanches;"Amanita phalloides ;"
+19;A;Agaricus silvicola;Agaric des bois;Wood mushroom;wood_mushroom.png;Comestible;Blanc ;10;Blanc;10;Brunes;"Amanites blanches ;"
+20;A;Tricholoma album;Tricholome blanc;White knight;white_knight.png;A jeter;Blanc;7;Blanc;6;Blanches;Amanites blanches 
+21;A;Leucoagaricus leucothites;Lépiote pudique;White dapperling;white_dapperling.png;Comestible;Blanc;10;Blanc;5;Blanches;Amanites blanches
+22;A;Agaricus campestris;Agaric des prés;Field mushroom;field_mushroom.png;Comestible;Blanc;10;Blanc;8;Roses;"Amanites blanches ;"
+23;A;Tricholoma columbetta;Tricholome colombette;Dove-coloured tricholoma;dove_tricholoma.png;Comestible;Blanc;10;Blanc;10;Blanches;Amanites blanches
+24;A;Tricholomopsis rutilans;Tricholome rutilant;Plums and custard;plums_custard.png;Comestible;Rouge;15;Rouge;12;Jaunes;/
+25;A;Kuehneromyces mutabilis;Pholiote changeante;Sheathed woodtuft;sheathed_woodtuft.png;Comestible;Brun;7;Brun;7;Beiges;Galerina marginata
+26;A;Macrolepiota procera;Lépiote élevée;Parasol mushroom;parasol_mushroom.png;Comestible;Brun;25;Brun;20;Blanches;Autres lépiotes
+27;A;Entoloma lividum;Entolome livide;Livid entoloma;livid_entoloma.png;Toxique;Blanc;15;Blanc;15;Jaunes;/
+28;A;Calocybe gambosa;Tricholome de la saint-georges;St. George’s mushroom;st_mushroom.png;Comestible;Blanc;10;Blanc;10;Blanches;Entoloma lividum
+29;A;Entoloma clypeatum;Entolome en bouclier;Shield pinkgill;shield_pinkgill.png;Comestible;Gris;10;Blanc;10;Blanches;Entoloma vernum
+30;A;Clitocybe nebularis;Clitocybe nébuleux;Clouded agaric;clouded_agaric.png;Comestible;Beige;20;Blanc;15;Blanches;Entoloma lividum
+31;A;Lyophyllum decastes;Tricholome agrégé;Fried chicken mushroom;fried_mushroom.png;Comestible;Beige;10;Blanc;10;Blanches;Entoloma lividum
+32;B;Entoloma vernum;Entolome printanier;Spring entoloma;spring_entoloma.png;Toxique;Gris;8;Gris;7;Grises;/
+33;B;Omphalotus olearius;Clitocybe de l’olivier;Jack-o’-lantern mushroom;jack_mushroom.png;Toxique;Orangé;15;Orangé;10;Orangées;/
+34;B;Lactarius chrysorrheus;Lactaire à lait jaune d’or;Yellowdrop milkcap;yellowdrop_milkcap.png;A jeter;Jaune;8;Blanc;5;Roses;/
+35;B;Cantharellus cibarius;Chanterelle / Girolle;Girolle;girolle_Girolle.png;Comestible;Jaune;8;Jaune;4;Jaunes;Omphalotus olearius
+36;B;Lactarius sanguifluus;Lactaire sanguin;Bloody milk cap;bloody_cap.png;Comestible;Orangé;12;Orangé;7;Orangées;Paxillus involutus
+37;B;Lactarius deliciosus;Lactaire délicieux;Saffron milk cap;saffron_cap.png;Comestible;Orangé;15;Orange;6;Orangées;Paxillus involutus
+38;B;Tricholoma pardinum;Tricholome tigré;Leopard knight;leopard_knight.png;Toxique;Brun;15;Blanc;15;Blanches;/
+39;B;Tricholoma virgatum;Tricholome vergeté;Ashen knight;ashen_knight.png;Toxique;Gris;7;Blanc;7;Grises;/
+40;B;Var. proxima;Amanite ovoïde;Near Neighbor Amidella;near_Amidella.png;Toxique;Blanc;30;Blanc;15;Blanches;/
+41;B;Tricholoma atosquamosum;Tricholome squameux;Dark-scaled knight;dark_knight.png;Comestible;Gris;10;Gris;10;Blanches;Tricholomes à chapeau gris
+42;B;Tricholoma terreum;Tricholome terreux;Grey knight;grey_knight.png;Comestible;Gris;9;Blanc;7;Grises;Tricholomes à chapeaux gris
+43;B;Amanita ovoidea;Amanite ovoïde;Bearded amanita;bearded_amanita.png;A jeter;Blanc;30;Blanc;15;Blanches;"Amanites blanches ;"
+44;B;Agaricus romagnesii;Agaric radicant;Agaricus romagnesii;agaricus_romagnesii.png;Toxique;Brun;8;Blanc;12;Roses;/
+45;B;Macrolepiota rhacodes;Lepiote déguenillé;Shaggy parasol;shaggy_parasol.png;Comestible;Brun;15;Blanc;15;Blanches;Autres lépiotes
+46;B;Morchella rotunda;Morille ronde;Common morel;common_morel.png;Comestible;Brun;20;Blanc;10;/;Gyromitra esculenta
+47;B;Agaricus silvaticus;Agaric des forêts;Scaly wood mushroom;scaly_mushroom.png;Comestible;Brun;15;Blanc;10;Roses;Agaricus romagnesii
+48;B;Agaricus haemorrhoidarius;Agaric sanguinolent;Scaly wood mushroom ?;scaly_mushroom ?.png;Comestible;Brun;12;Blanc;15;Roses;Agaricus romagnesii
+49;B;Agaricus xanthoderma;Agaric jaunissant;Yellow-staining mushroom;yellow_mushroom.png;Toxique;Blanc;10;Blanc;10;Roses;/
+50;B;Sarcosphaera crassa;Pézize couronnée;Pink crown;pink_crown.png;Toxique;Violet;12;/;/;/;/
+51;B;Amanita vaginata;Amanite vaginée;Grisette;grisette_Grisette.png;Comestible;Gris;12;Blanc;15;Blanches;/
+52;B;Agaricus arvensis;Agaric des jachères;Horse mushroom;horse_mushroom.png;Comestible;Blanc;15;Blanc;14;Grises;"Amanites blanches ;"
+53;B;Disciotis venosa;Pézize veinée;Bleach cup;bleach_cup.png;Comestible;Brun;12;/;0;/;/
+54;B;Lepista nuda;Pied bleu;Wood blewit;wood_blewit.png;Comestible;Bleu;15;Bleu;10;Bleues;/
+55;C;Boletus satanas;Bolet satan;Satan's bolete;satan's_bolete.png;Toxique;Brun;20;Rouge;15;/;/
+56;C;Suillus luteus;Nonette voilée;Slippery jack;slippery_jack.png;Comestible;Brun;12;Jaune;10;/;/
+57;C;Suillus bovinus;Bolet des bouviers;Bovine bolete;bovine_bolete.png;Comestible;Brun;10;Brun;8;/;/
+58;C;Boletus erythropus;Bolet à pied rouge;Scarletina bolete;scarletina_bolete.png;Comestible;Brun;20;Rouge;15;/;Boletus satanas
+59;C;Suillus grevillei;Bolet élégant;Greville's bolete;greville's_bolete.png;Comestible;Jaune;10;Blanc;10;/;/
+60;C;Xerocomus chrysenteron;Bolet à chair jaune;Red cracking bolete;red_bolete.png;Comestible;Brun;12;Rouge;8;/;/
+61;C;Clitocybe phyllophila;Clitocybes blancs;Frosty Funnel;frosty_Funnel.png;Toxique;Blanc;10;Blanc;5;/;/
+62;C;Inocybe asterospora;Inocybe à spores étoilés;Star Fibrecap;star_Fibrecap.png;Toxique;Roux;5;Brun;8;Beiges;/
+63;C;Pleurotus eryngii;Pleurote du panicaut;King trumpet mushroom;king_mushroom.png;Comestible;Brun;12;Blanc;5;Blanches;/
+64;C;Clitopilus prunulus;Clitopile petite prune;The miller;the_miller.png;Comestible;Blanc;10;Blanc;5;Blanches;Clitocybes blancs
+65;C;Marasmius oreades;Marasme des oréades;Fairy ring mushroom;fairy_mushroom.png;Comestible;Ocre;5;Ocre;7;Blanches;Inocybes
+66;C;Pleurotus cornucopiae;Pleurote corne d’abondance;Branched Oyster Mushroom;branched_Mushroom.png;Comestible;Blanc;10;Blanc;4;Blanches;/
+67;C;Amanita muscaria;Amanite tue-mouches;Fly agaric;fly_agaric.png;Toxique;Rouge;20;Blanc;20;Blanches;/
+68;C;Amanita pantherina;Amanite panthère;Panther cap;panther_cap.png;Toxique;Brun;10;Blanc;10;Blanches;/
+69;C;Amanita spissa;Amanite épaisse;Grey spotted Amanita;grey_Amanita.png;A jeter;Brun;20;Blanc;15;Blanches;Amanite panthère
+70;C;Amanita caesarea;Amanite des césars;Caesar's mushroom;caesar's_mushroom.png;Comestible;Orangé;20;Jaune;15;Jaunes;Amanite tue-mouches
+71;C;Amanita rubescens;Amanite vineuse;Blushing amanita;blushing_amanita.png;Comestible;Brun;12;Blanc;12;Blanches;Amanite panthère
+72;C;Pleurotus ostreatus;Pleurote en huître;Oyster mushroom;oyster_mushroom.png;Comestible;Gris;15;Blanc;2;Blanches;/
+73;C;Coprinus atramentarius;Coprin noir d’encre;Common ink cap;common_cap.png;Toxique;Gris;10;Blanc;10;Blanches;/
+74;C;Ramaria formosa;Clavaire jolie;Salmon coral;salmon_coral.png;Toxique;Rose;15;/;0;/;/
+75;C;Gymnopilus spectabilis;Pholiote remarquable;Spectacular rustgill;spectacular_rustgill.png;Toxique;Roux;15;Jaune;20;Jaunes;/
+76;C;Coprinus comatus;Coprin chevelu;Shaggy ink cap;shaggy_cap.png;Comestible;Blanc;15;Blanc;15;Blanches;Coprin noir d'encre
+77;C;Ramaria botrytis;Clavaire chou-fleur;Clustered coral;clustered_coral.png;Comestible;Rose;15;/;0;/;Clavaire jolie
+78;D;Pholiota squarrosa;Pholiote écailleuse;Shaggy scalycap;shaggy_scalycap.png;A jeter;Jaune;15;Jaune;15;Jaunes;/
+79;D;Leccinum aurantiacum;Bolet orangé;Red-capped scaber stalk;red_stalk.png;Comestible;Orangé;20;Blanc;20;/;/
+80;D;Tylopilus felleus;Bolet de fiel;Bitter bolete;bitter_bolete.png;A jeter;Beige;15;Beige;15;/;/
+81;D;Gyroporus castaneus;Bolet châtain;Chestnut bolete;chestnut_bolete.png;A jeter;Brun;10;Brun;8;/;/
+82;D;Leccinum scabrum;Bolet rude;Rough-stemmed bolete;rough_bolete.png;Comestible;Brun;15;Blanc;20;/;/
+83;D;Boletus edulis;Cèpe de Bordeaux;Cep;cep_Cep.png;Comestible;Fauve;25;Blanc;12;/;/
+84;D;Xerocomus badius;Bolet bai;Bay Bolete;bay_Bolete.png;Comestible;Marron;15;Brun;12;/;/
+85;D;Russula mustelina;Russule belette;Russet brittlegill;russet_brittlegill.png;Comestible;Roux;15;Blanc;10;Blanches;/
+86;D;Russula emetica;Russule émétique;Emetic russula;emetic_russula.png;Toxique;Rouge;10;Blanc;8;Blanches;/
+87;D;Russula nigricans;Russule noircissante;Blackening brittlegill;blackening_brittlegill.png;A jeter;Blanc;20;Blanc;5;Blanches;/
+88;D;Russula drimeia;Russule sardoine;Primrose brittlegill;primrose_brittlegill.png;A jeter;Violet;9;Violet;8;Citrines;/
+89;D;Russula lepida;Russule jolie;Rosy russula;rosy_russula.png;Comestible;Rouge;10;Blanc;8;Blanches;Russule émétique
+90;D;Russula ochroleuca;Russule ocre et blanc;Ochre brittlegill;ochre_brittlegill.png;A jeter;Ocre;9;Blanc;9;Blanches;/
+91;D;Lactarius vellereus;Lactaire velouté;Fleecy milk-cap;fleecy_cap.png;A jeter;Blanc;30;Blanc;6;Blanches;/
+92;D;Lactarius torminosus;Lactaire toisonné;woolly milkcap;woolly_milkcap.png;A jeter;Rouge;12;Blanc;8;Rosées;/
+93;D;Lactarius pubescens;Lactaire pubescent;Downy milk cap;downy_cap.png;A jeter;Blanc;10;Blanc;5;Rosées;/
+94;D;Lactarius piperatus;Lactaire poivré;Blancaccio;blancaccio_Blancaccio.png;A jeter;Blanc;12;Blanc;10;Blanches;/
+95;D;Lactarius volemus;Lactaire à lait abondant;Weeping milk cap;weeping_cap.png;Comestible;Orangé;10;Orangé;8;Jaunes;/
+96;D;Lactarius scrobiculatus;Lactaire Scrobiculé;Spotted Milkcap mushroom;spotted_mushroom.png;A jeter;Jaune;20;Blanc;7;Jaunes;/
+97;D;Tricholoma ustaloides;Tricholome Comme Brûlé;Burnt Knight;burnt_Knight.png;A jeter;Brun;12;Blanc;10;Rousses;"Tricholoma ustale ; Tricholoma fulvum ; Tricholoma fracticum"
+98;D;Hypholoma fasciculare;Hypholome en touffes;Sulphur tuft;sulphur_tuft.png;Toxique;Jaune;6;Jaune;10;Jaunes;/
+99;D;Hypholoma sublateritium;Hypholome couleur de brique;Brick cap;brick_cap.png;A jeter;Rouge;10;Roux;12;Jaunes;/
+100;D;Tricholoma populinum;Tricholome des peupliers;Cottonwood mushroom;cottonwood_mushroom.png;Comestible;Brun;15;Blanc;10;Blanches;/
+101;D;Armillaria mellea;Armillaire couleur de miel;Honey fungus;honey_fungus.png;Comestible;Brun;10;Jaune;12;Blanches;"Hypholome en touffes ;"
+102;D;Agrocybe aegerita;Pholiote du peuplier;Poplar mushroom;poplar_mushroom.png;Comestible;Beige;12;Blanc;10;Beiges;/
