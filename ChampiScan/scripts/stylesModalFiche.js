@@ -19,12 +19,17 @@ export default styles = StyleSheet.create({
     },
     titre: {
         fontSize: 20,
+        fontWeight: 'bold',
         margin: 20
     },
     image_champi: {
         flex: 1,
         width: '100%',
         height: '100%'
+    },
+    infos: {
+        textAlign: 'center',
+        margin: 30
     },
     bouton_close: {
         padding: 10

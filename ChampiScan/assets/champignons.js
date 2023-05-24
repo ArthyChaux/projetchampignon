@@ -7,12 +7,12 @@ export default champi_data = [
    "nom_anglais": "Death cap",
    "image": require("./photos/amanita_phalloides.jpg"),
    "Comestibilité": "Mortel",
-   "Couleur du chapeau": "Vert",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Vert",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 2,
@@ -22,12 +22,12 @@ export default champi_data = [
    "nom_anglais": "Yellow knight",
    "image": require("./photos/tricholoma_equestre.png"),
    "Comestibilité": "Mortel",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Jaune",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Jaune",
+   "taille_max_pied_cm": "10",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 3,
@@ -37,12 +37,12 @@ export default champi_data = [
    "nom_anglais": "Fool’s msuhroom",
    "image": require("./photos/Amanita_verna.png"),
    "Comestibilité": "Mortel",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "12",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "12",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 4,
@@ -52,12 +52,12 @@ export default champi_data = [
    "nom_anglais": "Fool’s webcap",
    "image": require("./photos/cortinarius_orellanus.png"),
    "Comestibilité": "Mortel",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Jaune",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Jaune",
+   "taille_max_pied_cm": "10",
    "Lames": "Orangées",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 5,
@@ -67,12 +67,12 @@ export default champi_data = [
    "nom_anglais": "Funeral bell",
    "image": require("./photos/galerina_marginata.png"),
    "Comestibilité": "Mortel",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 7,
-   "Couleur du pied": "Brun",
-   "Taille max du pied (cm)": "7",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 7,
+   "couleur_pied": "Brun",
+   "taille_max_pied_cm": "7",
    "Lames": "Brunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 6,
@@ -82,12 +82,12 @@ export default champi_data = [
    "nom_anglais": "Deadly dapperling",
    "image": require("./photos/lepiota_brunneoincarnata.png"),
    "Comestibilité": "Mortel",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 5,
-   "Couleur du pied": "Brun",
-   "Taille max du pied (cm)": "5",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 5,
+   "couleur_pied": "Brun",
+   "taille_max_pied_cm": "5",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 7,
@@ -97,12 +97,12 @@ export default champi_data = [
    "nom_anglais": "Brown roll-rim",
    "image": require("./photos/Paxillus_involutus.png"),
    "Comestibilité": "Mortel",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Brun",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Brun",
+   "taille_max_pied_cm": "8",
    "Lames": "Brunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 8,
@@ -112,12 +112,12 @@ export default champi_data = [
    "nom_anglais": "Brain mushroom",
    "image": require("./photos/gyromitra_esculenta.png"),
    "Comestibilité": "Mortel",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "4",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "4",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 9,
@@ -127,12 +127,12 @@ export default champi_data = [
    "nom_anglais": "Russula olivacea",
    "image": require("./photos/russula_olivacea.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Vert",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Vert",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 10,
@@ -142,12 +142,12 @@ export default champi_data = [
    "nom_anglais": "Greasy green brittlegill",
    "image": require("./photos/russula_heterophylla.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Vert",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Vert",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanita phalloides"
+   "especes_voisines_toxiques": "Amanita phalloides"
  },
  {
    "ID": 11,
@@ -157,12 +157,12 @@ export default champi_data = [
    "nom_anglais": "Green-cracking russula",
    "image": require("./photos/russula_virescens.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Vert",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Vert",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanita phalloides"
+   "especes_voisines_toxiques": "Amanita phalloides"
  },
  {
    "ID": 12,
@@ -172,12 +172,12 @@ export default champi_data = [
    "nom_anglais": "Charcoal burner",
    "image": require("./photos/russula_cyanoxantha.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Variées",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Variées",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanita phalloides ; Russula olivacea"
+   "especes_voisines_toxiques": "Amanita phalloides ; Russula olivacea"
  },
  {
    "ID": 13,
@@ -187,12 +187,12 @@ export default champi_data = [
    "nom_anglais": "Yellow blusher",
    "image": require("./photos/tricholoma_sejunctum.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanita phalloides"
+   "especes_voisines_toxiques": "Amanita phalloides"
  },
  {
    "ID": 14,
@@ -202,12 +202,12 @@ export default champi_data = [
    "nom_anglais": "Soap-scented toadstool",
    "image": require("./photos/tricholoma_saponaceum.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Gris",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "12",
+   "couleur_chapeau": "Gris",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "12",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanita phalloides"
+   "especes_voisines_toxiques": "Amanita phalloides"
  },
  {
    "ID": 15,
@@ -217,12 +217,12 @@ export default champi_data = [
    "nom_anglais": "Gemmed amanita",
    "image": require("./photos/amanita_gemmata.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 16,
@@ -232,12 +232,12 @@ export default champi_data = [
    "nom_anglais": "Sulphur knight",
    "image": require("./photos/tricholoma_sulphureum.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Jaune",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Jaune",
+   "taille_max_pied_cm": "10",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 17,
@@ -247,12 +247,12 @@ export default champi_data = [
    "nom_anglais": "Charbonnier",
    "image": require("./photos/tricholoma_portentosum.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Gris",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Gris",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanita phalloides"
+   "especes_voisines_toxiques": "Amanita phalloides"
  },
  {
    "ID": 18,
@@ -262,12 +262,12 @@ export default champi_data = [
    "nom_anglais": "False death cap",
    "image": require("./photos/amanita_citrina.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanita phalloides"
+   "especes_voisines_toxiques": "Amanita phalloides"
  },
  {
    "ID": 19,
@@ -277,12 +277,12 @@ export default champi_data = [
    "nom_anglais": "Wood mushroom",
    "image": require("./photos/agaricus_silvicola.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Brunes",
-   "Espèces voisines toxiques": "Amanites blanches"
+   "especes_voisines_toxiques": "Amanites blanches"
  },
  {
    "ID": 20,
@@ -292,12 +292,12 @@ export default champi_data = [
    "nom_anglais": "White knight",
    "image": require("./photos/tricholoma_album.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 7,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "6",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 7,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "6",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanites blanches"
+   "especes_voisines_toxiques": "Amanites blanches"
  },
  {
    "ID": 21,
@@ -307,12 +307,12 @@ export default champi_data = [
    "nom_anglais": "White dapperling",
    "image": require("./photos/leucoagaricus_leucothites.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "5",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "5",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanites blanches"
+   "especes_voisines_toxiques": "Amanites blanches"
  },
  {
    "ID": 22,
@@ -322,12 +322,12 @@ export default champi_data = [
    "nom_anglais": "Field mushroom",
    "image": require("./photos/agaricus_campestris.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "8",
    "Lames": "Roses",
-   "Espèces voisines toxiques": "Amanites blanches"
+   "especes_voisines_toxiques": "Amanites blanches"
  },
  {
    "ID": 23,
@@ -337,12 +337,12 @@ export default champi_data = [
    "nom_anglais": "Dove-coloured tricholoma",
    "image": require("./photos/tricholoma_columbetta.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanites blanches"
+   "especes_voisines_toxiques": "Amanites blanches"
  },
  {
    "ID": 24,
@@ -352,12 +352,12 @@ export default champi_data = [
    "nom_anglais": "Plums and custard",
    "image": require("./photos/tricholomopsis_rutilans.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Rouge",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Rouge",
-   "Taille max du pied (cm)": "12",
+   "couleur_chapeau": "Rouge",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Rouge",
+   "taille_max_pied_cm": "12",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 25,
@@ -367,12 +367,12 @@ export default champi_data = [
    "nom_anglais": "Sheathed woodtuft",
    "image": require("./photos/kuehneromyces_mutabilis.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 7,
-   "Couleur du pied": "Brun",
-   "Taille max du pied (cm)": "7",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 7,
+   "couleur_pied": "Brun",
+   "taille_max_pied_cm": "7",
    "Lames": "Beiges",
-   "Espèces voisines toxiques": "Galerina marginata"
+   "especes_voisines_toxiques": "Galerina marginata"
  },
  {
    "ID": 26,
@@ -382,12 +382,12 @@ export default champi_data = [
    "nom_anglais": "Parasol mushroom",
    "image": require("./photos/macrolepiota_procera.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 25,
-   "Couleur du pied": "Brun",
-   "Taille max du pied (cm)": "20",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 25,
+   "couleur_pied": "Brun",
+   "taille_max_pied_cm": "20",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Autres lépiotes"
+   "especes_voisines_toxiques": "Autres lépiotes"
  },
  {
    "ID": 27,
@@ -397,12 +397,12 @@ export default champi_data = [
    "nom_anglais": "Livid entoloma",
    "image": require("./photos/entoloma_lividum.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 28,
@@ -412,12 +412,12 @@ export default champi_data = [
    "nom_anglais": "St. George’s mushroom",
    "image": require("./photos/calocybe_gambosa.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Entoloma lividum"
+   "especes_voisines_toxiques": "Entoloma lividum"
  },
  {
    "ID": 29,
@@ -427,12 +427,12 @@ export default champi_data = [
    "nom_anglais": "Shield pinkgill",
    "image": require("./photos/entoloma_clypeatum.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Gris",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Gris",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Entoloma vernum"
+   "especes_voisines_toxiques": "Entoloma vernum"
  },
  {
    "ID": 30,
@@ -442,12 +442,12 @@ export default champi_data = [
    "nom_anglais": "Clouded agaric",
    "image": require("./photos/clitocybe_nebularis.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Beige",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Beige",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Entoloma lividum"
+   "especes_voisines_toxiques": "Entoloma lividum"
  },
  {
    "ID": 31,
@@ -457,12 +457,12 @@ export default champi_data = [
    "nom_anglais": "Fried chicken mushroom",
    "image": require("./photos/lyophyllum_decastes.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Beige",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Beige",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Entoloma lividum"
+   "especes_voisines_toxiques": "Entoloma lividum"
  },
  {
    "ID": 32,
@@ -472,12 +472,12 @@ export default champi_data = [
    "nom_anglais": "Spring entoloma",
    "image": require("./photos/entoloma_vernum.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Gris",
-   "Taille max du chapeau (cm)": 8,
-   "Couleur du pied": "Gris",
-   "Taille max du pied (cm)": "7",
+   "couleur_chapeau": "Gris",
+   "taille_max_chapeau_cm": 8,
+   "couleur_pied": "Gris",
+   "taille_max_pied_cm": "7",
    "Lames": "Grises",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 33,
@@ -487,12 +487,12 @@ export default champi_data = [
    "nom_anglais": "Jack-o’-lantern mushroom",
    "image": require("./photos/omphalotus_olearius.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Orangé",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Orangé",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Orangé",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Orangé",
+   "taille_max_pied_cm": "10",
    "Lames": "Orangées",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 34,
@@ -502,12 +502,12 @@ export default champi_data = [
    "nom_anglais": "Yellowdrop milkcap",
    "image": require("./photos/lactarius_chrysorrehus.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 8,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "5",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 8,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "5",
    "Lames": "Roses",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 35,
@@ -517,12 +517,12 @@ export default champi_data = [
    "nom_anglais": "Girolle",
    "image": require("./photos/cantharellus_cibarius.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 8,
-   "Couleur du pied": "Jaune",
-   "Taille max du pied (cm)": "4",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 8,
+   "couleur_pied": "Jaune",
+   "taille_max_pied_cm": "4",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "Omphalotus olearius"
+   "especes_voisines_toxiques": "Omphalotus olearius"
  },
  {
    "ID": 36,
@@ -532,12 +532,12 @@ export default champi_data = [
    "nom_anglais": "Bloody milk cap",
    "image": require("./photos/lactarius_sanguifluus.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Orangé",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Orangé",
-   "Taille max du pied (cm)": "7",
+   "couleur_chapeau": "Orangé",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Orangé",
+   "taille_max_pied_cm": "7",
    "Lames": "Orangées",
-   "Espèces voisines toxiques": "Paxillus involutus"
+   "especes_voisines_toxiques": "Paxillus involutus"
  },
  {
    "ID": 37,
@@ -547,12 +547,12 @@ export default champi_data = [
    "nom_anglais": "Saffron milk cap",
    "image": require("./photos/lactarius_deliciosus.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Orangé",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Orange",
-   "Taille max du pied (cm)": "6",
+   "couleur_chapeau": "Orangé",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Orange",
+   "taille_max_pied_cm": "6",
    "Lames": "Orangées",
-   "Espèces voisines toxiques": "Paxillus involutus"
+   "especes_voisines_toxiques": "Paxillus involutus"
  },
  {
    "ID": 38,
@@ -562,12 +562,12 @@ export default champi_data = [
    "nom_anglais": "Leopard knight",
    "image": require("./photos/tricholoma_pardinum.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 39,
@@ -577,12 +577,12 @@ export default champi_data = [
    "nom_anglais": "Ashen knight",
    "image": require("./photos/tricholoma_virgatum.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Gris",
-   "Taille max du chapeau (cm)": 7,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "7",
+   "couleur_chapeau": "Gris",
+   "taille_max_chapeau_cm": 7,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "7",
    "Lames": "Grises",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 40,
@@ -592,12 +592,12 @@ export default champi_data = [
    "nom_anglais": "Near Neighbor Amidella",
    "image": require("./photos/var_proxima.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 30,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 30,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 41,
@@ -607,12 +607,12 @@ export default champi_data = [
    "nom_anglais": "Dark-scaled knight",
    "image": require("./photos/tricholoma_atrosquamosum.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Gris",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Gris",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Gris",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Gris",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Tricholomes à chapeau gris"
+   "especes_voisines_toxiques": "Tricholomes à chapeau gris"
  },
  {
    "ID": 42,
@@ -622,12 +622,12 @@ export default champi_data = [
    "nom_anglais": "Grey knight",
    "image": require("./photos/tricholoma_terreum.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Gris",
-   "Taille max du chapeau (cm)": 9,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "7",
+   "couleur_chapeau": "Gris",
+   "taille_max_chapeau_cm": 9,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "7",
    "Lames": "Grises",
-   "Espèces voisines toxiques": "Tricholomes à chapeaux gris"
+   "especes_voisines_toxiques": "Tricholomes à chapeaux gris"
  },
  {
    "ID": 43,
@@ -637,12 +637,12 @@ export default champi_data = [
    "nom_anglais": "Bearded amanita",
    "image": require("./photos/amanita_ovoidea.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 30,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 30,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanites blanches ;"
+   "especes_voisines_toxiques": "Amanites blanches ;"
  },
  {
    "ID": 44,
@@ -652,12 +652,12 @@ export default champi_data = [
    "nom_anglais": "Agaricus romagnesii",
    "image": require("./photos/agaricus_romagnesii.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 8,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "12",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 8,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "12",
    "Lames": "Roses",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 45,
@@ -667,12 +667,12 @@ export default champi_data = [
    "nom_anglais": "Shaggy parasol",
    "image": require("./photos/macrolepiota_rhacodes.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Autres lépiotes"
+   "especes_voisines_toxiques": "Autres lépiotes"
  },
  {
    "ID": 46,
@@ -682,12 +682,12 @@ export default champi_data = [
    "nom_anglais": "Common morel",
    "image": require("./photos/morchella_rotunda.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "/",
-   "Espèces voisines toxiques": "Gyromitra esculenta"
+   "especes_voisines_toxiques": "Gyromitra esculenta"
  },
  {
    "ID": 47,
@@ -697,12 +697,12 @@ export default champi_data = [
    "nom_anglais": "Scaly wood mushroom",
    "image": require("./photos/agaricus_silvaticus.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Roses",
-   "Espèces voisines toxiques": "Agaricus romagnesii"
+   "especes_voisines_toxiques": "Agaricus romagnesii"
  },
  {
    "ID": 48,
@@ -712,12 +712,12 @@ export default champi_data = [
    "nom_anglais": "Scaly wood mushroom",
    "image": require("./photos/agaricus_haemorrhoidarius.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Roses",
-   "Espèces voisines toxiques": "Agaricus romagnesii"
+   "especes_voisines_toxiques": "Agaricus romagnesii"
  },
  {
    "ID": 49,
@@ -727,12 +727,12 @@ export default champi_data = [
    "nom_anglais": "Yellow-staining mushroom",
    "image": require("./photos/agaricus_xanthoderma.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Roses",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 50,
@@ -742,12 +742,12 @@ export default champi_data = [
    "nom_anglais": "Pink crown",
    "image": require("./photos/sarcosphaera_crassa.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Violet",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "/",
-   "Taille max du pied (cm)": "/",
+   "couleur_chapeau": "Violet",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "/",
+   "taille_max_pied_cm": "/",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 51,
@@ -757,12 +757,12 @@ export default champi_data = [
    "nom_anglais": "Grisette",
    "image": require("./photos/amanita_vaginata.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Gris",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Gris",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 52,
@@ -772,12 +772,12 @@ export default champi_data = [
    "nom_anglais": "Horse mushroom",
    "image": require("./photos/agaricus_arvensis.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "14",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "14",
    "Lames": "Grises",
-   "Espèces voisines toxiques": "Amanites blanches"
+   "especes_voisines_toxiques": "Amanites blanches"
  },
  {
    "ID": 53,
@@ -787,12 +787,12 @@ export default champi_data = [
    "nom_anglais": "Bleach cup",
    "image": require("./photos/disciotis_venosa.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "/",
-   "Taille max du pied (cm)": "0",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "/",
+   "taille_max_pied_cm": "0",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 54,
@@ -802,12 +802,12 @@ export default champi_data = [
    "nom_anglais": "Wood blewit",
    "image": require("./photos/lepista_nuda.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Bleu",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Bleu",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Bleu",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Bleu",
+   "taille_max_pied_cm": "10",
    "Lames": "Bleues",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 55,
@@ -817,12 +817,12 @@ export default champi_data = [
    "nom_anglais": "Satan's bolete",
    "image": require("./photos/boletus_satanas.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Rouge",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Rouge",
+   "taille_max_pied_cm": "15",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 56,
@@ -832,12 +832,12 @@ export default champi_data = [
    "nom_anglais": "Slippery jack",
    "image": require("./photos/suillus_luteus.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Jaune",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Jaune",
+   "taille_max_pied_cm": "10",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 57,
@@ -847,12 +847,12 @@ export default champi_data = [
    "nom_anglais": "Bovine bolete",
    "image": require("./photos/suillus_bovinus.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Brun",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Brun",
+   "taille_max_pied_cm": "8",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 58,
@@ -862,12 +862,12 @@ export default champi_data = [
    "nom_anglais": "Scarletina bolete",
    "image": require("./photos/boletus_erythropus.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Rouge",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Rouge",
+   "taille_max_pied_cm": "15",
    "Lames": "/",
-   "Espèces voisines toxiques": "Boletus satanas"
+   "especes_voisines_toxiques": "Boletus satanas"
  },
  {
    "ID": 59,
@@ -877,12 +877,12 @@ export default champi_data = [
    "nom_anglais": "Greville's bolete",
    "image": require("./photos/suillus_grevillei.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 60,
@@ -892,12 +892,12 @@ export default champi_data = [
    "nom_anglais": "Red cracking bolete",
    "image": require("./photos/Xerocomellus_chrysenteron.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Rouge",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Rouge",
+   "taille_max_pied_cm": "8",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 61,
@@ -907,12 +907,12 @@ export default champi_data = [
    "nom_anglais": "Frosty Funnel",
    "image": require("./photos/clitocybe_phyllophila.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "5",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "5",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 62,
@@ -922,12 +922,12 @@ export default champi_data = [
    "nom_anglais": "Star Fibrecap",
    "image": require("./photos/inocybe_asterospora.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Roux",
-   "Taille max du chapeau (cm)": 5,
-   "Couleur du pied": "Brun",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Roux",
+   "taille_max_chapeau_cm": 5,
+   "couleur_pied": "Brun",
+   "taille_max_pied_cm": "8",
    "Lames": "Beiges",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 63,
@@ -937,12 +937,12 @@ export default champi_data = [
    "nom_anglais": "King trumpet mushroom",
    "image": require("./photos/pleurotus_eryngii.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "5",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "5",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 64,
@@ -952,12 +952,12 @@ export default champi_data = [
    "nom_anglais": "The miller",
    "image": require("./photos/clitopilus_prunulus.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "5",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "5",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Clitocybes blancs"
+   "especes_voisines_toxiques": "Clitocybes blancs"
  },
  {
    "ID": 65,
@@ -967,12 +967,12 @@ export default champi_data = [
    "nom_anglais": "Fairy ring mushroom",
    "image": require("./photos/marasmius_oreades.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Ocre",
-   "Taille max du chapeau (cm)": 5,
-   "Couleur du pied": "Ocre",
-   "Taille max du pied (cm)": "7",
+   "couleur_chapeau": "Ocre",
+   "taille_max_chapeau_cm": 5,
+   "couleur_pied": "Ocre",
+   "taille_max_pied_cm": "7",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Inocybes"
+   "especes_voisines_toxiques": "Inocybes"
  },
  {
    "ID": 66,
@@ -982,12 +982,12 @@ export default champi_data = [
    "nom_anglais": "Branched Oyster Mushroom",
    "image": require("./photos/pleurotus_cornucopiae.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "4",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "4",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 67,
@@ -997,12 +997,12 @@ export default champi_data = [
    "nom_anglais": "Fly agaric",
    "image": require("./photos/amanita_muscaria.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Rouge",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "20",
+   "couleur_chapeau": "Rouge",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "20",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 68,
@@ -1012,12 +1012,12 @@ export default champi_data = [
    "nom_anglais": "Panther cap",
    "image": require("./photos/amanita_pantherina.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 69,
@@ -1027,12 +1027,12 @@ export default champi_data = [
    "nom_anglais": "Grey spotted Amanita",
    "image": require("./photos/amanita_spissa.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanite panthère"
+   "especes_voisines_toxiques": "Amanite panthère"
  },
  {
    "ID": 70,
@@ -1042,12 +1042,12 @@ export default champi_data = [
    "nom_anglais": "Caesar's mushroom",
    "image": require("./photos/amanita_caesarea.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Orangé",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Jaune",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Orangé",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Jaune",
+   "taille_max_pied_cm": "15",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "Amanite tue-mouches"
+   "especes_voisines_toxiques": "Amanite tue-mouches"
  },
  {
    "ID": 71,
@@ -1057,12 +1057,12 @@ export default champi_data = [
    "nom_anglais": "Blushing amanita",
    "image": require("./photos/amanita_rubescens.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "12",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "12",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Amanite panthère"
+   "especes_voisines_toxiques": "Amanite panthère"
  },
  {
    "ID": 72,
@@ -1072,12 +1072,12 @@ export default champi_data = [
    "nom_anglais": "Oyster mushroom",
    "image": require("./photos/pleurotus_ostreatus.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Gris",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "2",
+   "couleur_chapeau": "Gris",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "2",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 73,
@@ -1087,12 +1087,12 @@ export default champi_data = [
    "nom_anglais": "Common ink cap",
    "image": require("./photos/coprinus_atramentarius.jpg"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Gris",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Gris",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 74,
@@ -1102,12 +1102,12 @@ export default champi_data = [
    "nom_anglais": "Salmon coral",
    "image": require("./photos/ramaria_formosa.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Rose",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "/",
-   "Taille max du pied (cm)": "0",
+   "couleur_chapeau": "Rose",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "/",
+   "taille_max_pied_cm": "0",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 75,
@@ -1117,12 +1117,12 @@ export default champi_data = [
    "nom_anglais": "Spectacular rustgill",
    "image": require("./photos/gymnopilus_spectabilis.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Roux",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Jaune",
-   "Taille max du pied (cm)": "20",
+   "couleur_chapeau": "Roux",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Jaune",
+   "taille_max_pied_cm": "20",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 76,
@@ -1132,12 +1132,12 @@ export default champi_data = [
    "nom_anglais": "Shaggy ink cap",
    "image": require("./photos/Coprinus_comatus.jpg"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "15",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Coprin noir d'encre"
+   "especes_voisines_toxiques": "Coprin noir d'encre"
  },
  {
    "ID": 77,
@@ -1147,12 +1147,12 @@ export default champi_data = [
    "nom_anglais": "Clustered coral",
    "image": require("./photos/ramaria_botrytis.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Rose",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "/",
-   "Taille max du pied (cm)": "0",
+   "couleur_chapeau": "Rose",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "/",
+   "taille_max_pied_cm": "0",
    "Lames": "/",
-   "Espèces voisines toxiques": "Clavaire jolie"
+   "especes_voisines_toxiques": "Clavaire jolie"
  },
  {
    "ID": 78,
@@ -1162,12 +1162,12 @@ export default champi_data = [
    "nom_anglais": "Shaggy scalycap",
    "image": require("./photos/pholiota_squarrosa.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Jaune",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Jaune",
+   "taille_max_pied_cm": "15",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 79,
@@ -1177,12 +1177,12 @@ export default champi_data = [
    "nom_anglais": "Red-capped scaber stalk",
    "image": require("./photos/leccinum_aurantiacum.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Orangé",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "20",
+   "couleur_chapeau": "Orangé",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "20",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 80,
@@ -1192,12 +1192,12 @@ export default champi_data = [
    "nom_anglais": "Bitter bolete",
    "image": require("./photos/tylopilus_felleus.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Beige",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Beige",
-   "Taille max du pied (cm)": "15",
+   "couleur_chapeau": "Beige",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Beige",
+   "taille_max_pied_cm": "15",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 81,
@@ -1207,12 +1207,12 @@ export default champi_data = [
    "nom_anglais": "Chestnut bolete",
    "image": require("./photos/gyroporus_castaneus.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Brun",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Brun",
+   "taille_max_pied_cm": "8",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 82,
@@ -1222,12 +1222,12 @@ export default champi_data = [
    "nom_anglais": "Rough-stemmed bolete",
    "image": require("./photos/leccinum_scabrum.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "20",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "20",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 83,
@@ -1237,12 +1237,12 @@ export default champi_data = [
    "nom_anglais": "Cep",
    "image": require("./photos/boletus_edulis.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Fauve",
-   "Taille max du chapeau (cm)": 25,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "12",
+   "couleur_chapeau": "Fauve",
+   "taille_max_chapeau_cm": 25,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "12",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 84,
@@ -1252,12 +1252,12 @@ export default champi_data = [
    "nom_anglais": "Bay Bolete",
    "image": require("./photos/xerocomus_badius.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Marron",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Brun",
-   "Taille max du pied (cm)": "12",
+   "couleur_chapeau": "Marron",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Brun",
+   "taille_max_pied_cm": "12",
    "Lames": "/",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 85,
@@ -1267,12 +1267,12 @@ export default champi_data = [
    "nom_anglais": "Russet brittlegill",
    "image": require("./photos/russula_mustelina.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Roux",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Roux",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 86,
@@ -1282,12 +1282,12 @@ export default champi_data = [
    "nom_anglais": "Emetic russula",
    "image": require("./photos/russula_emetica.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Rouge",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Rouge",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "8",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 87,
@@ -1297,12 +1297,12 @@ export default champi_data = [
    "nom_anglais": "Blackening brittlegill",
    "image": require("./photos/russula_nigricans.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "5",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "5",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 88,
@@ -1312,12 +1312,12 @@ export default champi_data = [
    "nom_anglais": "Primrose brittlegill",
    "image": require("./photos/russula_drimeia.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Violet",
-   "Taille max du chapeau (cm)": 9,
-   "Couleur du pied": "Violet",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Violet",
+   "taille_max_chapeau_cm": 9,
+   "couleur_pied": "Violet",
+   "taille_max_pied_cm": "8",
    "Lames": "Citrines",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 89,
@@ -1327,12 +1327,12 @@ export default champi_data = [
    "nom_anglais": "Rosy russula",
    "image": require("./photos/russula_lepida.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Rouge",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Rouge",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "8",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Russule émétique"
+   "especes_voisines_toxiques": "Russule émétique"
  },
  {
    "ID": 90,
@@ -1342,12 +1342,12 @@ export default champi_data = [
    "nom_anglais": "Ochre brittlegill",
    "image": require("./photos/russula_ochroleuca.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Ocre",
-   "Taille max du chapeau (cm)": 9,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "9",
+   "couleur_chapeau": "Ocre",
+   "taille_max_chapeau_cm": 9,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "9",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 91,
@@ -1357,12 +1357,12 @@ export default champi_data = [
    "nom_anglais": "Fleecy milk-cap",
    "image": require("./photos/lactarius_vellereus.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 30,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "6",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 30,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "6",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 92,
@@ -1372,12 +1372,12 @@ export default champi_data = [
    "nom_anglais": "woolly milkcap",
    "image": require("./photos/lactarius_torminosus.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Rouge",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Rouge",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "8",
    "Lames": "Rosées",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 93,
@@ -1387,12 +1387,12 @@ export default champi_data = [
    "nom_anglais": "Downy milk cap",
    "image": require("./photos/lactarius_pubescens.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "5",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "5",
    "Lames": "Rosées",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 94,
@@ -1402,12 +1402,12 @@ export default champi_data = [
    "nom_anglais": "Blancaccio",
    "image": require("./photos/lactarius_piperatus.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Blanc",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Blanc",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 95,
@@ -1417,12 +1417,12 @@ export default champi_data = [
    "nom_anglais": "Weeping milk cap",
    "image": require("./photos/lactarius_volemus.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Orangé",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Orangé",
-   "Taille max du pied (cm)": "8",
+   "couleur_chapeau": "Orangé",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Orangé",
+   "taille_max_pied_cm": "8",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 96,
@@ -1432,12 +1432,12 @@ export default champi_data = [
    "nom_anglais": "Spotted Milkcap mushroom",
    "image": require("./photos/lactarius_scrobiculatus.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 20,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "7",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 20,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "7",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 97,
@@ -1447,12 +1447,12 @@ export default champi_data = [
    "nom_anglais": "Burnt Knight",
    "image": require("./photos/tricholoma_ustaloides.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Rousses",
-   "Espèces voisines toxiques": "Tricholoma ustale ; Tricholoma fulvum ; Tricholoma fracticum"
+   "especes_voisines_toxiques": "Tricholoma ustale ; Tricholoma fulvum ; Tricholoma fracticum"
  },
  {
    "ID": 98,
@@ -1462,12 +1462,12 @@ export default champi_data = [
    "nom_anglais": "Sulphur tuft",
    "image": require("./photos/hypholoma_fasciculare.png"),
    "Comestibilité": "Toxique",
-   "Couleur du chapeau": "Jaune",
-   "Taille max du chapeau (cm)": 6,
-   "Couleur du pied": "Jaune",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Jaune",
+   "taille_max_chapeau_cm": 6,
+   "couleur_pied": "Jaune",
+   "taille_max_pied_cm": "10",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 99,
@@ -1477,12 +1477,12 @@ export default champi_data = [
    "nom_anglais": "Brick cap",
    "image": require("./photos/hypholoma_sublateritium.png"),
    "Comestibilité": "A jeter",
-   "Couleur du chapeau": "Rouge",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Roux",
-   "Taille max du pied (cm)": "12",
+   "couleur_chapeau": "Rouge",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Roux",
+   "taille_max_pied_cm": "12",
    "Lames": "Jaunes",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 100,
@@ -1492,12 +1492,12 @@ export default champi_data = [
    "nom_anglais": "Cottonwood mushroom",
    "image": require("./photos/tricholoma_populinum.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 15,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 15,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  },
  {
    "ID": 101,
@@ -1507,12 +1507,12 @@ export default champi_data = [
    "nom_anglais": "Honey fungus",
    "image": require("./photos/armillaria_mellea.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Brun",
-   "Taille max du chapeau (cm)": 10,
-   "Couleur du pied": "Jaune",
-   "Taille max du pied (cm)": "12",
+   "couleur_chapeau": "Brun",
+   "taille_max_chapeau_cm": 10,
+   "couleur_pied": "Jaune",
+   "taille_max_pied_cm": "12",
    "Lames": "Blanches",
-   "Espèces voisines toxiques": "Hypholome en touffes ;"
+   "especes_voisines_toxiques": "Hypholome en touffes ;"
  },
  {
    "ID": 102,
@@ -1522,11 +1522,11 @@ export default champi_data = [
    "nom_anglais": "Poplar mushroom",
    "image": require("./photos/Agrocybe_aegerita.png"),
    "Comestibilité": "Comestible",
-   "Couleur du chapeau": "Beige",
-   "Taille max du chapeau (cm)": 12,
-   "Couleur du pied": "Blanc",
-   "Taille max du pied (cm)": "10",
+   "couleur_chapeau": "Beige",
+   "taille_max_chapeau_cm": 12,
+   "couleur_pied": "Blanc",
+   "taille_max_pied_cm": "10",
    "Lames": "Beiges",
-   "Espèces voisines toxiques": "/"
+   "especes_voisines_toxiques": "/"
  }
 ]

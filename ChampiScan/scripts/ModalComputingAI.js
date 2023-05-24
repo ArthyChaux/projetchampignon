@@ -3,8 +3,6 @@ import { View, Modal, Button, Image, Text } from 'react-native'
 
 import styles from './stylesModalComputingAI'
 
-//import * as tf from '@tensorflow/tfjs';
-//import '@tensorflow/tfjs-react-native'
 
 export default function(params) {
 
@@ -18,11 +16,11 @@ return (
         params.setModalComputingAIVisible(!params.modalComputingAIVisible);
     }}>
         <View style={styles.modalView}>
-            <Image source={{uri: params.selectedImage}} style={styles.selectedImage} resizeMode='contain'/>
             <Text style={styles.traitement_text}>Traitement de l'image en cours...</Text>
+            <Image source={{uri: params.selectedImage}} style={styles.selectedImage} resizeMode='contain'/>
             <Button
                 onPress={() => params.setModalComputingAIVisible(!params.modalComputingAIVisible)}
-                title="Fermer"
+                title="Annuler"
                 color="#841584"
                 style={styles.bouton_close}
             ></Button>
