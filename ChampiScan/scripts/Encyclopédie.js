@@ -2,10 +2,13 @@
 import React, { useState } from 'react'
 import { View, Text, Pressable, Button, TextInput, FlatList, Image } from 'react-native'
 
+import { Platform } from "react-native";
+
 import styles from './stylesEncyclopédie'
 
 import * as ImagePicker from 'expo-image-picker';
 import { Camera, CameraType } from 'expo-camera';
+import { manipulateAsync } from 'expo-image-manipulator';
 
 import * as tf from '@tensorflow/tfjs';
 import '@tensorflow/tfjs-react-native'
@@ -20,16 +23,14 @@ export default function(params) {
     const [shown_champi_data, setShownChampiData] = useState(params.champi_data);
 
     const pickImage = async () => {
-        let result = await ImagePicker.launchImageLibraryAsync({allowsEditing: true,});
+        let result = await ImagePicker.launchImageLibraryAsync({allowsEditing: true, aspect: [1, 1],});
     
-        if (!result.canceled) {
+        if (!result.cancelled) {
             console.log(result);
             params.setSelectedImage(result.uri);
             params.setModalComputingAIVisible(true);
 
             getPredictions(result.uri);
-        } else {
-            alert('Tu n\'as pas choisi d\'image.');
         }
 
         // Ask the user for the permission to access the camera
@@ -75,11 +76,11 @@ export default function(params) {
     const transformImageToTensor = async (uri)=>{
         //.ts: const transformImageToTensor = async (uri:string):Promise<tf.Tensor>=>{
         //read the image as base64
-
-        const fileInfo = await FileSystem.getInfoAsync(uri);
-        console.log(fileInfo)
+        
+        //Dummy fix for reading uri        
+        const manipResult = await manipulateAsync(uri, [], {});
   
-        const img64 = await FileSystem.readAsStringAsync(uri, {encoding:FileSystem.EncodingType.Base64});
+        const img64 = await FileSystem.readAsStringAsync(manipResult.uri, {encoding:FileSystem.EncodingType.Base64});
         const imgBuffer =  tf.util.encodeString(img64, 'base64').buffer;
         const raw = new Uint8Array(imgBuffer);
         let imgTensor = decodeJpeg(raw);
@@ -96,24 +97,58 @@ export default function(params) {
     const makePredictions = async ( batch, model, imagesTensor )=>{
         //.ts: const makePredictions = async (batch:number, model:tf.LayersModel,imagesTensor:tf.Tensor<tf.Rank>):Promise<tf.Tensor<tf.Rank>[]>=>{
         //cast output prediction to tensor
-        const predictionsdata= model.predict(imagesTensor);
+        const predictionsdata= model.predict(imagesTensor).data();
         //.ts: const predictionsdata:tf.Tensor = model.predict(imagesTensor) as tf.Tensor
-        let pred = predictionsdata.split(batch); //split by batch size
+        //let pred = predictionsdata.split(batch); //split by batch size
         //return predictions 
-        return pred;
+        return predictionsdata;
     }
 
     const getPredictions = async (image)=>{
         console.log("Starting prediction");
         await tf.ready();
+
         console.log("Loading model");
         const model = await loadModel();
+
         console.log("Transforming image");
         const tensor_image = await transformImageToTensor(image);
+
         console.log("Calculating prediction");
         const predictions = await makePredictions(1, model, tensor_image);
+
         console.log("Got prediction :  ")
         console.log(predictions);
+
+        openBestChampiFiche(predictions)
+    }
+
+    const openBestChampiFiche = async (predictions)=>{
+        var mostRessemblantChampi = [[1, 0, {}], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0], [7, 0], [8, 0], [9, 0], [10, 0]];
+
+        for (var j = 0; j < 10; j++) {
+            var max = predictions[0];
+            var maxIndex = 0;
+
+            for (var i = 1; i < predictions.length; i++) {
+                if (predictions[i] > max) {
+                    maxIndex = i;
+                    max = predictions[i];
+                }
+            }
+
+            mostRessemblantChampi[j][0] = maxIndex + 1;
+            mostRessemblantChampi[j][1] = predictions[maxIndex];
+            mostRessemblantChampi[j][2] = params.champi_data[maxIndex];
+
+            console.log(j.toString() + "eme plus grand est " + (maxIndex + 1).toString() + " with value " + predictions[maxIndex].toString());
+            predictions[maxIndex] = 0;
+        }
+
+        params.setMostRessemblantChampi(mostRessemblantChampi);
+        console.log(mostRessemblantChampi);
+        params.setModalResultAIVisible(true);
+        params.setModalComputingAIVisible(false);
     }
 
     const changeSearch = (search_text)  => {
@@ -139,11 +174,20 @@ export default function(params) {
     return (
         <View style={styles.view}>
         
-        <TextInput
-            style={styles.search_bar}
-            placeholder= "Chercher un champignon"
-            onChangeText={changeSearch}>
-        </TextInput>
+        <View style={{flexDirection: "row"}}>
+            <TextInput
+                style={styles.search_bar}
+                placeholder= "Chercher un champignon"
+                onChangeText={changeSearch}>
+            </TextInput>
+            <Button 
+                style={{justifyContent: 'center', alignItems: 'center',
+                backgroundColor: 'black',
+                color: 'white'}}
+                onPress={pickImage}
+                title="+">
+                </Button>
+        </View>
 
         <FlatList
             style={styles.encyclopedie}

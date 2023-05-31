@@ -1,31 +1,26 @@
 import { StyleSheet} from 'react-native';
 
 export default styles = StyleSheet.create({
-    view: {
-        flex: 1,
-        paddingVertical: 50,
-        paddingHorizontal: 20,
+    modalView: {
+        margin: 20,
+        backgroundColor: 'white',
+        borderRadius: 20,
+        padding: 35,
+        alignItems: 'center',
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5,
+        flex: 1
     },
-    search_bar: {
-        flex: 1,
-        height: 40,
-        margin: 12,
-        borderWidth: 1,
-        padding: 10,
-        backgroundColor: "#fff",
-    },
-    search_button: {
-        flex: 1,justifyContent: 'center',
-        // height: 40,
-        // width: 40,
-        // margin: 12,
-        // padding: 10,
-        // backgroundColor: "#fff",
-        // textAlign: 'center',
-        // verticalAlign: 'center',
-    },
-    encyclopedie: {
-        backgroundColor: "#aaa4"
+    titre: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        margin: 20
     },
     pressable_item: {
         flexDirection: 'row'
@@ -70,7 +65,7 @@ export default styles = StyleSheet.create({
         fontWeight: 'bold',
         color: "#5D7D92"
     },
-    bouton_prendre_photo: {
-        padding: 10,
+    bouton_close: {
+        padding: 10
     }
 });
